@@ -1,0 +1,15 @@
+# Exclude from version control
+.env
+__pycache__/
+*.pyc
+.pytest_cache/
+.hypothesis/
+*.egg-info/
+venv/
+.env/
+venv/
+scripts/.env
+
+# Local infrastructure data
+logs/*.log
+results/
